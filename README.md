@@ -24,7 +24,9 @@ https://github.com/TheMindVirus/sprof/blob/main/trisprof-dbg/prof_data/libvcos.s
 https://github.com/raspberrypi/userland/blob/master/host_applications/linux/libs/bcm_host/bcm_host.c \
 https://github.com/raspberrypi/userland/blob/master/interface/khronos/egl/egl_client.c \
 https://github.com/raspberrypi/userland/blob/master/interface/khronos/glxx/glxx_client.c \
-https://github.com/raspberrypi/userland/blob/master/interface/khronos/common/khrn_client_rpc.h#L121
+https://github.com/raspberrypi/userland/blob/master/interface/khronos/common/khrn_client_rpc.h#L121 \
+https://github.com/raspberrypi/userland/blob/master/interface/vchiq_arm/vchiq_lib.c \
+https://github.com/raspberrypi/userland/blob/master/interface/vcos/generic/vcos_init.c
 
 ## Screenshot
 ![glcalls](https://github.com/TheMindVirus/sprof/blob/main/glcalls.png)
