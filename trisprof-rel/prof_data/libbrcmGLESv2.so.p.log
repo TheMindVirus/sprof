@@ -1,0 +1,43 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total
+ time   seconds   seconds    calls  us/call  us/call  name
+  0.00      0.00     0.00       30     0.00           glGetError
+  0.00      0.00     0.00        3     0.00           glBindBuffer
+  0.00      0.00     0.00        3     0.00           glBindFramebuffer
+  0.00      0.00     0.00        3     0.00           glxx_client_BindFramebuffer
+  0.00      0.00     0.00        2     0.00           glAttachShader
+  0.00      0.00     0.00        2     0.00           glBindTexture
+  0.00      0.00     0.00        2     0.00           glClear
+  0.00      0.00     0.00        2     0.00           glClearColor
+  0.00      0.00     0.00        2     0.00           glCompileShader
+  0.00      0.00     0.00        2     0.00           glCreateShader
+  0.00      0.00     0.00        2     0.00           glGetShaderInfoLog
+  0.00      0.00     0.00        2     0.00           glShaderSource
+  0.00      0.00     0.00        2     0.00           glTexParameterf
+  0.00      0.00     0.00        1     0.00           gl20_client_state_init
+  0.00      0.00     0.00        1     0.00           glBufferData
+  0.00      0.00     0.00        1     0.00           glCreateProgram
+  0.00      0.00     0.00        1     0.00           glDrawArrays
+  0.00      0.00     0.00        1     0.00           glEnableVertexAttribArray
+  0.00      0.00     0.00        1     0.00           glFinish
+  0.00      0.00     0.00        1     0.00           glFlush
+  0.00      0.00     0.00        1     0.00           glFramebufferTexture2D
+  0.00      0.00     0.00        1     0.00           glGenBuffers
+  0.00      0.00     0.00        1     0.00           glGenFramebuffers
+  0.00      0.00     0.00        1     0.00           glGenTextures
+  0.00      0.00     0.00        1     0.00           glGetAttribLocation
+  0.00      0.00     0.00        1     0.00           glGetProgramInfoLog
+  0.00      0.00     0.00        1     0.00           glLinkProgram
+  0.00      0.00     0.00        1     0.00           glTexImage2D
+  0.00      0.00     0.00        1     0.00           glUseProgram
+  0.00      0.00     0.00        1     0.00           glVertexAttribPointer
+  0.00      0.00     0.00        1     0.00           glViewport
+  0.00      0.00     0.00        1     0.00           glintAttribEnable
+  0.00      0.00     0.00        1     0.00           glintAttribPointer
+  0.00      0.00     0.00        1     0.00           glxx_buffer_info_get
+  0.00      0.00     0.00        1     0.00           glxx_buffer_info_set
+  0.00      0.00     0.00        1     0.00           glxx_client_FramebufferTexture2D
+  0.00      0.00     0.00        1     0.00           glxx_client_GenFramebuffers
+  0.00      0.00     0.00        1     0.00           khrn_cache_init

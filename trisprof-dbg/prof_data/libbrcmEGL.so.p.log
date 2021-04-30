@@ -1,0 +1,67 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total
+ time   seconds   seconds    calls  us/call  us/call  name
+  0.00      0.00     0.00      113     0.00           rpc_send_ctrl_write
+  0.00      0.00     0.00      112     0.00           rpc_send_ctrl_begin
+  0.00      0.00     0.00      112     0.00           rpc_send_ctrl_end
+  0.00      0.00     0.00       93     0.00           egl_config_get_attrib
+  0.00      0.00     0.00       87     0.00           rpc_begin
+  0.00      0.00     0.00       87     0.00           rpc_end
+  0.00      0.00     0.00       83     0.00           platform_tls_get
+  0.00      0.00     0.00       45     0.00           rpc_get_client_id
+  0.00      0.00     0.00       44     0.00           client_send_make_current
+  0.00      0.00     0.00       44     0.00           rpc_call8_makecurrent
+  0.00      0.00     0.00       40     0.00           rpc_recv
+  0.00      0.00     0.00       28     0.00           egl_config_filter
+  0.00      0.00     0.00       12     0.00           egl_config_is_lockable
+  0.00      0.00     0.00       11     0.00           khrn_platform_malloc
+  0.00      0.00     0.00        8     0.00           rpc_send_bulk
+  0.00      0.00     0.00        6     0.00           client_egl_get_process_state
+  0.00      0.00     0.00        6     0.00           khrn_pointer_map_init
+  0.00      0.00     0.00        6     0.00           khrn_pointer_map_lookup
+  0.00      0.00     0.00        6     0.00           platform_client_lock
+  0.00      0.00     0.00        6     0.00           platform_client_release
+  0.00      0.00     0.00        4     0.00           egl_config_get_color_format
+  0.00      0.00     0.00        3     0.00           client_egl_get_surface
+  0.00      0.00     0.00        3     0.00           egl_config_get_api_support
+  0.00      0.00     0.00        3     0.00           khrn_pointer_map_insert
+  0.00      0.00     0.00        2     0.00           egl_config_bpps_match
+  0.00      0.00     0.00        2     0.00           platform_get_dimensions
+  0.00      0.00     0.00        2     0.00           rpc_flush
+  0.00      0.00     0.00        1     0.00           client_egl_get_context
+  0.00      0.00     0.00        1     0.00           client_process_attach
+  0.00      0.00     0.00        1     0.00           client_process_state_init
+  0.00      0.00     0.00        1     0.00           client_thread_attach
+  0.00      0.00     0.00        1     0.00           client_thread_state_init
+  0.00      0.00     0.00        1     0.00           eglBindAPI
+  0.00      0.00     0.00        1     0.00           eglChooseConfig
+  0.00      0.00     0.00        1     0.00           eglCreateContext
+  0.00      0.00     0.00        1     0.00           eglCreateWindowSurface
+  0.00      0.00     0.00        1     0.00           eglGetDisplay
+  0.00      0.00     0.00        1     0.00           eglInitialize
+  0.00      0.00     0.00        1     0.00           eglMakeCurrent
+  0.00      0.00     0.00        1     0.00           eglSwapBuffers
+  0.00      0.00     0.00        1     0.00           egl_config_check_attribs
+  0.00      0.00     0.00        1     0.00           egl_config_get_depth_format
+  0.00      0.00     0.00        1     0.00           egl_config_get_mask_format
+  0.00      0.00     0.00        1     0.00           egl_config_get_multisample_format
+  0.00      0.00     0.00        1     0.00           egl_config_install_configs
+  0.00      0.00     0.00        1     0.00           egl_config_sort
+  0.00      0.00     0.00        1     0.00           egl_context_check_attribs
+  0.00      0.00     0.00        1     0.00           egl_context_create
+  0.00      0.00     0.00        1     0.00           egl_context_set_callbacks
+  0.00      0.00     0.00        1     0.00           egl_surface_check_attribs
+  0.00      0.00     0.00        1     0.00           egl_surface_create
+  0.00      0.00     0.00        1     0.00           egl_surface_get_render_buffer
+  0.00      0.00     0.00        1     0.00           khclient_rpc_init
+  0.00      0.00     0.00        1     0.00           khrn_global_image_map_init
+  0.00      0.00     0.00        1     0.00           khrn_init_options
+  0.00      0.00     0.00        1     0.00           khrn_platform_get_window_position
+  0.00      0.00     0.00        1     0.00           khrn_platform_set_display_id
+  0.00      0.00     0.00        1     0.00           khronos_platform_semaphore_create
+  0.00      0.00     0.00        1     0.00           platform_get_handle
+  0.00      0.00     0.00        1     0.00           platform_surface_update
+  0.00      0.00     0.00        1     0.00           platform_tls_get_check
+  0.00      0.00     0.00        1     0.00           vc_vchi_khronos_init

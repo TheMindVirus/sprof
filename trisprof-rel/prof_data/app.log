@@ -1,0 +1,420 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00        2     0.00     0.00  show_log (main.c:38 @ 1122c)
+  0.00      0.00     0.00        1     0.00     0.00  draw_triangle (main.c:194 @ 11d58)
+  0.00      0.00     0.00        1     0.00     0.00  get_mouse (main.c:208 @ 11f1c)
+  0.00      0.00     0.00        1     0.00     0.00  init_ogl (main.c:52 @ 112dc)
+  0.00      0.00     0.00        1     0.00     0.00  init_shaders (main.c:140 @ 1179c)
+  0.00      0.00     0.00        1     0.00     0.00  show_program_log (main.c:45 @ 11284)
+  0.00      0.00     0.00                             __do_global_dtors_aux
+  0.00      0.00     0.00                             __do_global_dtors_aux_fini_array_entry
+  0.00      0.00     0.00                             __frame_dummy_init_array_entry
+  0.00      0.00     0.00                             __gmon_start__
+  0.00      0.00     0.00                             __libc_csu_fini
+  0.00      0.00     0.00                             __libc_csu_init
+  0.00      0.00     0.00                             _fini
+  0.00      0.00     0.00                             _init
+  0.00      0.00     0.00                             _start
+  0.00      0.00     0.00                             atexit
+  0.00      0.00     0.00                             call_weak_fn
+  0.00      0.00     0.00                             deregister_tm_clones
+  0.00      0.00     0.00                             draw_triangle (main.c:195 @ 11d70)
+  0.00      0.00     0.00                             draw_triangle (main.c:196 @ 11d7c)
+  0.00      0.00     0.00                             draw_triangle (main.c:197 @ 11da8)
+  0.00      0.00     0.00                             draw_triangle (main.c:198 @ 11de0)
+  0.00      0.00     0.00                             draw_triangle (main.c:199 @ 11e14)
+  0.00      0.00     0.00                             draw_triangle (main.c:200 @ 11e4c)
+  0.00      0.00     0.00                             draw_triangle (main.c:201 @ 11e80)
+  0.00      0.00     0.00                             draw_triangle (main.c:202 @ 11e8c)
+  0.00      0.00     0.00                             draw_triangle (main.c:203 @ 11e90)
+  0.00      0.00     0.00                             draw_triangle (main.c:204 @ 11eb8)
+  0.00      0.00     0.00                             draw_triangle (main.c:205 @ 11ef8)
+  0.00      0.00     0.00                             etext
+  0.00      0.00     0.00                             frame_dummy
+  0.00      0.00     0.00                             get_mouse (main.c:210 @ 11f3c)
+  0.00      0.00     0.00                             get_mouse (main.c:211 @ 11f48)
+  0.00      0.00     0.00                             get_mouse (main.c:214 @ 11f54)
+  0.00      0.00     0.00                             get_mouse (main.c:215 @ 11f5c)
+  0.00      0.00     0.00                             get_mouse (main.c:217 @ 11f64)
+  0.00      0.00     0.00                             get_mouse (main.c:218 @ 11f8c)
+  0.00      0.00     0.00                             get_mouse (main.c:223 @ 11f9c)
+  0.00      0.00     0.00                             get_mouse (main.c:224 @ 11fb8)
+  0.00      0.00     0.00                             get_mouse (main.c:225 @ 11fc4)
+  0.00      0.00     0.00                             get_mouse (main.c:226 @ 11fd4)
+  0.00      0.00     0.00                             get_mouse (main.c:222 @ 11fec)
+  0.00      0.00     0.00                             get_mouse (main.c:225 @ 11ff0)
+  0.00      0.00     0.00                             get_mouse (main.c:228 @ 11ff4)
+  0.00      0.00     0.00                             get_mouse (main.c:229 @ 12010)
+  0.00      0.00     0.00                             get_mouse (main.c:230 @ 1202c)
+  0.00      0.00     0.00                             get_mouse (main.c:231 @ 12048)
+  0.00      0.00     0.00                             get_mouse (main.c:232 @ 12074)
+  0.00      0.00     0.00                             get_mouse (main.c:233 @ 120a0)
+  0.00      0.00     0.00                             get_mouse (main.c:234 @ 120bc)
+  0.00      0.00     0.00                             get_mouse (main.c:235 @ 120d8)
+  0.00      0.00     0.00                             get_mouse (main.c:236 @ 120f8)
+  0.00      0.00     0.00                             get_mouse (main.c:238 @ 1211c)
+  0.00      0.00     0.00                             get_mouse (main.c:224 @ 12124)
+  0.00      0.00     0.00                             get_mouse (main.c:239 @ 12128)
+  0.00      0.00     0.00                             get_mouse (main.c:240 @ 12144)
+  0.00      0.00     0.00                             get_mouse (main.c:241 @ 12160)
+  0.00      0.00     0.00                             get_mouse (main.c:242 @ 12164)
+  0.00      0.00     0.00                             init_ogl (main.c:53 @ 112f4)
+  0.00      0.00     0.00                             init_ogl (main.c:54 @ 112fc)
+  0.00      0.00     0.00                             init_ogl (main.c:55 @ 11304)
+  0.00      0.00     0.00                             init_ogl (main.c:82 @ 1130c)
+  0.00      0.00     0.00                             init_ogl (main.c:83 @ 11320)
+  0.00      0.00     0.00                             init_ogl (main.c:84 @ 11344)
+  0.00      0.00     0.00                             init_ogl (main.c:86 @ 11368)
+  0.00      0.00     0.00                             init_ogl (main.c:87 @ 11384)
+  0.00      0.00     0.00                             init_ogl (main.c:88 @ 113a4)
+  0.00      0.00     0.00                             init_ogl (main.c:90 @ 113c8)
+  0.00      0.00     0.00                             init_ogl (main.c:91 @ 113ec)
+  0.00      0.00     0.00                             init_ogl (main.c:92 @ 1140c)
+  0.00      0.00     0.00                             init_ogl (main.c:94 @ 11430)
+  0.00      0.00     0.00                             init_ogl (main.c:95 @ 1143c)
+  0.00      0.00     0.00                             init_ogl (main.c:96 @ 1145c)
+  0.00      0.00     0.00                             init_ogl (main.c:98 @ 11480)
+  0.00      0.00     0.00                             init_ogl (main.c:99 @ 114a4)
+  0.00      0.00     0.00                             init_ogl (main.c:100 @ 114c8)
+  0.00      0.00     0.00                             init_ogl (main.c:102 @ 114ec)
+  0.00      0.00     0.00                             init_ogl (main.c:103 @ 11508)
+  0.00      0.00     0.00                             init_ogl (main.c:105 @ 11528)
+  0.00      0.00     0.00                             init_ogl (main.c:106 @ 11530)
+  0.00      0.00     0.00                             init_ogl (main.c:107 @ 11538)
+  0.00      0.00     0.00                             init_ogl (main.c:108 @ 11544)
+  0.00      0.00     0.00                             init_ogl (main.c:110 @ 11550)
+  0.00      0.00     0.00                             init_ogl (main.c:111 @ 11558)
+  0.00      0.00     0.00                             init_ogl (main.c:112 @ 11560)
+  0.00      0.00     0.00                             init_ogl (main.c:113 @ 11570)
+  0.00      0.00     0.00                             init_ogl (main.c:115 @ 11580)
+  0.00      0.00     0.00                             init_ogl (main.c:116 @ 1158c)
+  0.00      0.00     0.00                             init_ogl (main.c:117 @ 11598)
+  0.00      0.00     0.00                             init_ogl (main.c:120 @ 115e4)
+  0.00      0.00     0.00                             init_ogl (main.c:121 @ 115f0)
+  0.00      0.00     0.00                             init_ogl (main.c:122 @ 11604)
+  0.00      0.00     0.00                             init_ogl (main.c:123 @ 11618)
+  0.00      0.00     0.00                             init_ogl (main.c:124 @ 11620)
+  0.00      0.00     0.00                             init_ogl (main.c:126 @ 11644)
+  0.00      0.00     0.00                             init_ogl (main.c:127 @ 11668)
+  0.00      0.00     0.00                             init_ogl (main.c:128 @ 1168c)
+  0.00      0.00     0.00                             init_ogl (main.c:130 @ 116b0)
+  0.00      0.00     0.00                             init_ogl (main.c:131 @ 116d8)
+  0.00      0.00     0.00                             init_ogl (main.c:132 @ 116f8)
+  0.00      0.00     0.00                             init_ogl (main.c:134 @ 1171c)
+  0.00      0.00     0.00                             init_ogl (main.c:135 @ 11730)
+  0.00      0.00     0.00                             init_ogl (main.c:136 @ 11738)
+  0.00      0.00     0.00                             init_ogl (main.c:137 @ 1175c)
+  0.00      0.00     0.00                             init_shaders (main.c:149 @ 117b4)
+  0.00      0.00     0.00                             init_shaders (main.c:150 @ 117d0)
+  0.00      0.00     0.00                             init_shaders (main.c:151 @ 117e4)
+  0.00      0.00     0.00                             init_shaders (main.c:152 @ 117fc)
+  0.00      0.00     0.00                             init_shaders (main.c:153 @ 1180c)
+  0.00      0.00     0.00                             init_shaders (main.c:155 @ 11850)
+  0.00      0.00     0.00                             init_shaders (main.c:156 @ 1186c)
+  0.00      0.00     0.00                             init_shaders (main.c:157 @ 11880)
+  0.00      0.00     0.00                             init_shaders (main.c:158 @ 11898)
+  0.00      0.00     0.00                             init_shaders (main.c:159 @ 118a8)
+  0.00      0.00     0.00                             init_shaders (main.c:161 @ 118ec)
+  0.00      0.00     0.00                             init_shaders (main.c:162 @ 11908)
+  0.00      0.00     0.00                             init_shaders (main.c:163 @ 11918)
+  0.00      0.00     0.00                             init_shaders (main.c:164 @ 11934)
+  0.00      0.00     0.00                             init_shaders (main.c:165 @ 11950)
+  0.00      0.00     0.00                             init_shaders (main.c:166 @ 11960)
+  0.00      0.00     0.00                             init_shaders (main.c:168 @ 119a4)
+  0.00      0.00     0.00                             init_shaders (main.c:169 @ 119c8)
+  0.00      0.00     0.00                             init_shaders (main.c:170 @ 119dc)
+  0.00      0.00     0.00                             init_shaders (main.c:171 @ 119f0)
+  0.00      0.00     0.00                             init_shaders (main.c:173 @ 11a14)
+  0.00      0.00     0.00                             init_shaders (main.c:174 @ 11a4c)
+  0.00      0.00     0.00                             init_shaders (main.c:175 @ 11a84)
+  0.00      0.00     0.00                             init_shaders (main.c:176 @ 11ad4)
+  0.00      0.00     0.00                             init_shaders (main.c:177 @ 11af8)
+  0.00      0.00     0.00                             init_shaders (main.c:178 @ 11b08)
+  0.00      0.00     0.00                             init_shaders (main.c:179 @ 11b18)
+  0.00      0.00     0.00                             init_shaders (main.c:180 @ 11b3c)
+  0.00      0.00     0.00                             init_shaders (main.c:181 @ 11b74)
+  0.00      0.00     0.00                             init_shaders (main.c:182 @ 11bac)
+  0.00      0.00     0.00                             init_shaders (main.c:183 @ 11bd0)
+  0.00      0.00     0.00                             init_shaders (main.c:184 @ 11bf4)
+  0.00      0.00     0.00                             init_shaders (main.c:185 @ 11c24)
+  0.00      0.00     0.00                             init_shaders (main.c:186 @ 11c68)
+  0.00      0.00     0.00                             init_shaders (main.c:187 @ 11c7c)
+  0.00      0.00     0.00                             init_shaders (main.c:188 @ 11c90)
+  0.00      0.00     0.00                             init_shaders (main.c:189 @ 11cb8)
+  0.00      0.00     0.00                             init_shaders (main.c:190 @ 11cc8)
+  0.00      0.00     0.00                             init_shaders (main.c:191 @ 11cec)
+  0.00      0.00     0.00                             main (main.c:14 @ 11130)
+  0.00      0.00     0.00                             main (main.c:15 @ 11144)
+  0.00      0.00     0.00                             main (main.c:16 @ 1114c)
+  0.00      0.00     0.00                             main (main.c:17 @ 11154)
+  0.00      0.00     0.00                             main (main.c:19 @ 1116c)
+  0.00      0.00     0.00                             main (main.c:20 @ 11170)
+  0.00      0.00     0.00                             main (main.c:21 @ 11188)
+  0.00      0.00     0.00                             main (main.c:23 @ 11198)
+  0.00      0.00     0.00                             main (main.c:24 @ 111a8)
+  0.00      0.00     0.00                             main (main.c:26 @ 111b8)
+  0.00      0.00     0.00                             main (main.c:28 @ 111c4)
+  0.00      0.00     0.00                             main (main.c:29 @ 111cc)
+  0.00      0.00     0.00                             main (main.c:30 @ 111e8)
+  0.00      0.00     0.00                             main (main.c:31 @ 111f4)
+  0.00      0.00     0.00                             main (main.c:32 @ 11204)
+  0.00      0.00     0.00                             main (main.c:30 @ 1120c)
+  0.00      0.00     0.00                             main (main.c:34 @ 11210)
+  0.00      0.00     0.00                             main (main.c:35 @ 11214)
+  0.00      0.00     0.00                             register_tm_clones
+  0.00      0.00     0.00                             show_log (main.c:40 @ 11248)
+  0.00      0.00     0.00                             show_log (main.c:41 @ 11260)
+  0.00      0.00     0.00                             show_log (main.c:42 @ 11274)
+  0.00      0.00     0.00                             show_program_log (main.c:47 @ 112a0)
+  0.00      0.00     0.00                             show_program_log (main.c:48 @ 112b8)
+  0.00      0.00     0.00                             show_program_log (main.c:49 @ 112cc)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/2           init_shaders (main.c:153 @ 1180c) [100]
+                0.00    0.00       1/2           init_shaders (main.c:161 @ 118ec) [106]
+[1]      0.0    0.00    0.00       2         show_log (main.c:38 @ 1122c) [1]
+-----------------------------------------------
+                0.00    0.00       1/1           main (main.c:32 @ 11204) [149]
+[2]      0.0    0.00    0.00       1         draw_triangle (main.c:194 @ 11d58) [2]
+-----------------------------------------------
+                0.00    0.00       1/1           main (main.c:29 @ 111cc) [146]
+[3]      0.0    0.00    0.00       1         get_mouse (main.c:208 @ 11f1c) [3]
+-----------------------------------------------
+                0.00    0.00       1/1           main (main.c:23 @ 11198) [142]
+[4]      0.0    0.00    0.00       1         init_ogl (main.c:52 @ 112dc) [4]
+-----------------------------------------------
+                0.00    0.00       1/1           main (main.c:24 @ 111a8) [143]
+[5]      0.0    0.00    0.00       1         init_shaders (main.c:140 @ 1179c) [5]
+-----------------------------------------------
+                0.00    0.00       1/1           init_shaders (main.c:168 @ 119a4) [112]
+[6]      0.0    0.00    0.00       1         show_program_log (main.c:45 @ 11284) [6]
+-----------------------------------------------
+                                                 <spontaneous>
+[7]      0.0    0.00    0.00                 atexit [7]
+-----------------------------------------------
+                                                 <spontaneous>
+[8]      0.0    0.00    0.00                 call_weak_fn [8]
+-----------------------------------------------
+                                                 <spontaneous>
+[9]      0.0    0.00    0.00                 deregister_tm_clones [9]
+-----------------------------------------------
+                                                 <spontaneous>
+[22]     0.0    0.00    0.00                 frame_dummy [22]
+-----------------------------------------------
+                                                 <spontaneous>
+[135]    0.0    0.00    0.00                 main (main.c:14 @ 11130) [135]
+-----------------------------------------------
+                                                 <spontaneous>
+[153]    0.0    0.00    0.00                 register_tm_clones [153]
+-----------------------------------------------
+                                                 <spontaneous>
+[160]    0.0    0.00    0.00                 __do_global_dtors_aux [160]
+-----------------------------------------------
+                                                 <spontaneous>
+[163]    0.0    0.00    0.00                 __gmon_start__ [163]
+-----------------------------------------------
+                                                 <spontaneous>
+[164]    0.0    0.00    0.00                 __libc_csu_fini [164]
+-----------------------------------------------
+                                                 <spontaneous>
+[165]    0.0    0.00    0.00                 __libc_csu_init [165]
+-----------------------------------------------
+                                                 <spontaneous>
+[166]    0.0    0.00    0.00                 _fini [166]
+-----------------------------------------------
+                                                 <spontaneous>
+[167]    0.0    0.00    0.00                 _init [167]
+-----------------------------------------------
+                                                 <spontaneous>
+[168]    0.0    0.00    0.00                 _start [168]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [160] __do_global_dtors_aux  [51] init_ogl (main.c:54 @ 112fc) [106] init_shaders (main.c:161 @ 118ec)
+ [161] __do_global_dtors_aux_fini_array_entry [52] init_ogl (main.c:55 @ 11304) [107] init_shaders (main.c:162 @ 11908)
+ [162] __frame_dummy_init_array_entry [53] init_ogl (main.c:82 @ 1130c) [108] init_shaders (main.c:163 @ 11918)
+ [163] __gmon_start__         [54] init_ogl (main.c:83 @ 11320) [109] init_shaders (main.c:164 @ 11934)
+ [164] __libc_csu_fini        [55] init_ogl (main.c:84 @ 11344) [110] init_shaders (main.c:165 @ 11950)
+ [165] __libc_csu_init        [56] init_ogl (main.c:86 @ 11368) [111] init_shaders (main.c:166 @ 11960)
+ [166] _fini                  [57] init_ogl (main.c:87 @ 11384) [112] init_shaders (main.c:168 @ 119a4)
+ [167] _init                  [58] init_ogl (main.c:88 @ 113a4) [113] init_shaders (main.c:169 @ 119c8)
+ [168] _start                 [59] init_ogl (main.c:90 @ 113c8) [114] init_shaders (main.c:170 @ 119dc)
+   [7] atexit                 [60] init_ogl (main.c:91 @ 113ec) [115] init_shaders (main.c:171 @ 119f0)
+   [8] call_weak_fn           [61] init_ogl (main.c:92 @ 1140c) [116] init_shaders (main.c:173 @ 11a14)
+   [9] deregister_tm_clones   [62] init_ogl (main.c:94 @ 11430) [117] init_shaders (main.c:174 @ 11a4c)
+   [2] draw_triangle (main.c:194 @ 11d58) [63] init_ogl (main.c:95 @ 1143c) [118] init_shaders (main.c:175 @ 11a84)
+  [10] draw_triangle (main.c:195 @ 11d70) [64] init_ogl (main.c:96 @ 1145c) [119] init_shaders (main.c:176 @ 11ad4)
+  [11] draw_triangle (main.c:196 @ 11d7c) [65] init_ogl (main.c:98 @ 11480) [120] init_shaders (main.c:177 @ 11af8)
+  [12] draw_triangle (main.c:197 @ 11da8) [66] init_ogl (main.c:99 @ 114a4) [121] init_shaders (main.c:178 @ 11b08)
+  [13] draw_triangle (main.c:198 @ 11de0) [67] init_ogl (main.c:100 @ 114c8) [122] init_shaders (main.c:179 @ 11b18)
+  [14] draw_triangle (main.c:199 @ 11e14) [68] init_ogl (main.c:102 @ 114ec) [123] init_shaders (main.c:180 @ 11b3c)
+  [15] draw_triangle (main.c:200 @ 11e4c) [69] init_ogl (main.c:103 @ 11508) [124] init_shaders (main.c:181 @ 11b74)
+  [16] draw_triangle (main.c:201 @ 11e80) [70] init_ogl (main.c:105 @ 11528) [125] init_shaders (main.c:182 @ 11bac)
+  [17] draw_triangle (main.c:202 @ 11e8c) [71] init_ogl (main.c:106 @ 11530) [126] init_shaders (main.c:183 @ 11bd0)
+  [18] draw_triangle (main.c:203 @ 11e90) [72] init_ogl (main.c:107 @ 11538) [127] init_shaders (main.c:184 @ 11bf4)
+  [19] draw_triangle (main.c:204 @ 11eb8) [73] init_ogl (main.c:108 @ 11544) [128] init_shaders (main.c:185 @ 11c24)
+  [20] draw_triangle (main.c:205 @ 11ef8) [74] init_ogl (main.c:110 @ 11550) [129] init_shaders (main.c:186 @ 11c68)
+  [21] etext                  [75] init_ogl (main.c:111 @ 11558) [130] init_shaders (main.c:187 @ 11c7c)
+  [22] frame_dummy            [76] init_ogl (main.c:112 @ 11560) [131] init_shaders (main.c:188 @ 11c90)
+   [3] get_mouse (main.c:208 @ 11f1c) [77] init_ogl (main.c:113 @ 11570) [132] init_shaders (main.c:189 @ 11cb8)
+  [23] get_mouse (main.c:210 @ 11f3c) [78] init_ogl (main.c:115 @ 11580) [133] init_shaders (main.c:190 @ 11cc8)
+  [24] get_mouse (main.c:211 @ 11f48) [79] init_ogl (main.c:116 @ 1158c) [134] init_shaders (main.c:191 @ 11cec)
+  [25] get_mouse (main.c:214 @ 11f54) [80] init_ogl (main.c:117 @ 11598) [135] main (main.c:14 @ 11130)
+  [26] get_mouse (main.c:215 @ 11f5c) [81] init_ogl (main.c:120 @ 115e4) [136] main (main.c:15 @ 11144)
+  [27] get_mouse (main.c:217 @ 11f64) [82] init_ogl (main.c:121 @ 115f0) [137] main (main.c:16 @ 1114c)
+  [28] get_mouse (main.c:218 @ 11f8c) [83] init_ogl (main.c:122 @ 11604) [138] main (main.c:17 @ 11154)
+  [29] get_mouse (main.c:223 @ 11f9c) [84] init_ogl (main.c:123 @ 11618) [139] main (main.c:19 @ 1116c)
+  [30] get_mouse (main.c:224 @ 11fb8) [85] init_ogl (main.c:124 @ 11620) [140] main (main.c:20 @ 11170)
+  [31] get_mouse (main.c:225 @ 11fc4) [86] init_ogl (main.c:126 @ 11644) [141] main (main.c:21 @ 11188)
+  [32] get_mouse (main.c:226 @ 11fd4) [87] init_ogl (main.c:127 @ 11668) [142] main (main.c:23 @ 11198)
+  [33] get_mouse (main.c:222 @ 11fec) [88] init_ogl (main.c:128 @ 1168c) [143] main (main.c:24 @ 111a8)
+  [34] get_mouse (main.c:225 @ 11ff0) [89] init_ogl (main.c:130 @ 116b0) [144] main (main.c:26 @ 111b8)
+  [35] get_mouse (main.c:228 @ 11ff4) [90] init_ogl (main.c:131 @ 116d8) [145] main (main.c:28 @ 111c4)
+  [36] get_mouse (main.c:229 @ 12010) [91] init_ogl (main.c:132 @ 116f8) [146] main (main.c:29 @ 111cc)
+  [37] get_mouse (main.c:230 @ 1202c) [92] init_ogl (main.c:134 @ 1171c) [147] main (main.c:30 @ 111e8)
+  [38] get_mouse (main.c:231 @ 12048) [93] init_ogl (main.c:135 @ 11730) [148] main (main.c:31 @ 111f4)
+  [39] get_mouse (main.c:232 @ 12074) [94] init_ogl (main.c:136 @ 11738) [149] main (main.c:32 @ 11204)
+  [40] get_mouse (main.c:233 @ 120a0) [95] init_ogl (main.c:137 @ 1175c) [150] main (main.c:30 @ 1120c)
+  [41] get_mouse (main.c:234 @ 120bc) [5] init_shaders (main.c:140 @ 1179c) [151] main (main.c:34 @ 11210)
+  [42] get_mouse (main.c:235 @ 120d8) [96] init_shaders (main.c:149 @ 117b4) [152] main (main.c:35 @ 11214)
+  [43] get_mouse (main.c:236 @ 120f8) [97] init_shaders (main.c:150 @ 117d0) [153] register_tm_clones
+  [44] get_mouse (main.c:238 @ 1211c) [98] init_shaders (main.c:151 @ 117e4) [1] show_log (main.c:38 @ 1122c)
+  [45] get_mouse (main.c:224 @ 12124) [99] init_shaders (main.c:152 @ 117fc) [154] show_log (main.c:40 @ 11248)
+  [46] get_mouse (main.c:239 @ 12128) [100] init_shaders (main.c:153 @ 1180c) [155] show_log (main.c:41 @ 11260)
+  [47] get_mouse (main.c:240 @ 12144) [101] init_shaders (main.c:155 @ 11850) [156] show_log (main.c:42 @ 11274)
+  [48] get_mouse (main.c:241 @ 12160) [102] init_shaders (main.c:156 @ 1186c) [6] show_program_log (main.c:45 @ 11284)
+  [49] get_mouse (main.c:242 @ 12164) [103] init_shaders (main.c:157 @ 11880) [157] show_program_log (main.c:47 @ 112a0)
+   [4] init_ogl (main.c:52 @ 112dc) [104] init_shaders (main.c:158 @ 11898) [158] show_program_log (main.c:48 @ 112b8)
+  [50] init_ogl (main.c:53 @ 112f4) [105] init_shaders (main.c:159 @ 118a8) [159] show_program_log (main.c:49 @ 112cc)

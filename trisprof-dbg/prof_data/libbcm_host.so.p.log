@@ -1,0 +1,23 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total
+ time   seconds   seconds    calls  us/call  us/call  name
+  0.00      0.00     0.00        4     0.00           release_gencmd_service
+  0.00      0.00     0.00        3     0.00           use_gencmd_service
+  0.00      0.00     0.00        2     0.00           vc_dispmanx_display_open
+  0.00      0.00     0.00        1     0.00           bcm_host_init
+  0.00      0.00     0.00        1     0.00           graphics_get_display_size
+  0.00      0.00     0.00        1     0.00           vc_dispmanx_display_close
+  0.00      0.00     0.00        1     0.00           vc_dispmanx_display_get_info
+  0.00      0.00     0.00        1     0.00           vc_dispmanx_element_add
+  0.00      0.00     0.00        1     0.00           vc_dispmanx_update_start
+  0.00      0.00     0.00        1     0.00           vc_dispmanx_update_submit_sync
+  0.00      0.00     0.00        1     0.00           vc_gencmd
+  0.00      0.00     0.00        1     0.00           vc_gencmd_read_response
+  0.00      0.00     0.00        1     0.00           vc_gencmd_send_list
+  0.00      0.00     0.00        1     0.00           vc_tv_get_attached_devices
+  0.00      0.00     0.00        1     0.00           vc_vchi_cec_init
+  0.00      0.00     0.00        1     0.00           vc_vchi_dispmanx_init
+  0.00      0.00     0.00        1     0.00           vc_vchi_gencmd_init
+  0.00      0.00     0.00        1     0.00           vc_vchi_tv_init

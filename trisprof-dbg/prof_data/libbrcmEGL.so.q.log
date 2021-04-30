@@ -1,0 +1,370 @@
+
+index % time    self  children    called     name
+
+                0.00    0.00        1/1           client_process_state_init [462]
+[0]      0.0    0.00    0.00        1         egl_config_install_configs [0]
+-----------------------------------------------
+                0.00    0.00        1/1           choose_config [33]
+[1]      0.0    0.00    0.00        1         egl_config_check_attribs [1]
+-----------------------------------------------
+                0.00    0.00        1/1           choose_config [33]
+[3]      0.0    0.00    0.00        1         egl_config_sort [3]
+-----------------------------------------------
+                0.00    0.00        2/93          egl_surface_create [84]
+                0.00    0.00       91/93          egl_config_filter [5]
+[4]      0.0    0.00    0.00       93         egl_config_get_attrib [4]
+                0.00    0.00        9/12          egl_config_is_lockable [19]
+-----------------------------------------------
+                0.00    0.00       28/28          choose_config [33]
+[5]      0.0    0.00    0.00       28         egl_config_filter [5]
+                0.00    0.00       91/93          egl_config_get_attrib [4]
+-----------------------------------------------
+                0.00    0.00        1/4           egl_surface_create [84]
+                0.00    0.00        3/4           egl_config_get_api_support [15]
+[6]      0.0    0.00    0.00        4         egl_config_get_color_format [6]
+-----------------------------------------------
+                0.00    0.00        1/1           egl_surface_create [84]
+[7]      0.0    0.00    0.00        1         egl_config_get_depth_format [7]
+-----------------------------------------------
+                0.00    0.00        1/1           egl_surface_create [84]
+[8]      0.0    0.00    0.00        1         egl_config_get_mask_format [8]
+-----------------------------------------------
+                0.00    0.00        1/1           egl_surface_create [84]
+[9]      0.0    0.00    0.00        1         egl_config_get_multisample_format [9]
+-----------------------------------------------
+                0.00    0.00        2/3           context_and_surface_are_compatible [66]
+                0.00    0.00        1/3           eglCreateContext [55]
+[15]     0.0    0.00    0.00        3         egl_config_get_api_support [15]
+                0.00    0.00        3/4           egl_config_get_color_format [6]
+                0.00    0.00        3/12          egl_config_is_lockable [19]
+-----------------------------------------------
+                0.00    0.00        2/2           context_and_surface_are_compatible [66]
+[17]     0.0    0.00    0.00        2         egl_config_bpps_match [17]
+-----------------------------------------------
+                0.00    0.00        3/12          egl_config_get_api_support [15]
+                0.00    0.00        9/12          egl_config_get_attrib [4]
+[19]     0.0    0.00    0.00       12         egl_config_is_lockable [19]
+-----------------------------------------------
+                0.00    0.00        1/1           eglCreateContext [55]
+[20]     0.0    0.00    0.00        1         egl_context_check_attribs [20]
+-----------------------------------------------
+                0.00    0.00        1/1           eglCreateContext [55]
+[21]     0.0    0.00    0.00        1         egl_context_create [21]
+                0.00    0.00        1/87          rpc_end [213]
+                0.00    0.00        1/40          rpc_recv [211]
+                0.00    0.00        1/112         rpc_send_ctrl_end [206]
+                0.00    0.00        1/113         rpc_send_ctrl_write [205]
+                0.00    0.00        1/112         rpc_send_ctrl_begin [204]
+                0.00    0.00        1/87          rpc_begin [212]
+                0.00    0.00        1/83          platform_tls_get [228]
+                0.00    0.00        2/11          khrn_platform_malloc [231]
+-----------------------------------------------
+                0.00    0.00        1/1           egl_current_set [67]
+[24]     0.0    0.00    0.00        1         egl_context_set_callbacks [24]
+-----------------------------------------------
+                0.00    0.00        1/1           <UNKNOWN>
+[31]     0.0    0.00    0.00        1         eglGetDisplay [31]
+                0.00    0.00        1/1           khrn_platform_set_display_id [254]
+                0.00    0.00        1/1           platform_tls_get_check [229]
+-----------------------------------------------
+[33]     0.0    0.00    0.00        0         choose_config [33]
+                0.00    0.00        1/6           platform_client_release [243]
+                0.00    0.00       28/28          egl_config_filter [5]
+                0.00    0.00        1/1           egl_config_sort [3]
+                0.00    0.00        1/1           egl_config_check_attribs [1]
+                0.00    0.00        1/6           client_egl_get_process_state [465]
+                0.00    0.00        1/6           platform_client_lock [242]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+                0.00    0.00        1/1           <UNKNOWN>
+[34]     0.0    0.00    0.00        1         eglChooseConfig [34]
+-----------------------------------------------
+                0.00    0.00        1/1           <UNKNOWN>
+[37]     0.0    0.00    0.00        1         eglInitialize [37]
+                0.00    0.00        1/1           khrn_init_options [157]
+                0.00    0.00        1/6           platform_client_release [243]
+                0.00    0.00        1/1           client_process_state_init [462]
+                0.00    0.00        1/6           client_egl_get_process_state [465]
+                0.00    0.00        1/6           platform_client_lock [242]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+                0.00    0.00        1/1           <UNKNOWN>
+[40]     0.0    0.00    0.00        1         eglCreateWindowSurface [40]
+                0.00    0.00        1/6           platform_client_release [243]
+                0.00    0.00        1/3           khrn_pointer_map_insert [522]
+                0.00    0.00        1/1           egl_surface_create [84]
+                0.00    0.00        1/2           platform_get_dimensions [262]
+                0.00    0.00        1/1           egl_surface_check_attribs [83]
+                0.00    0.00        1/1           platform_get_handle [263]
+                0.00    0.00        1/6           client_egl_get_process_state [465]
+                0.00    0.00        1/6           platform_client_lock [242]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+                0.00    0.00        1/1           <UNKNOWN>
+[46]     0.0    0.00    0.00        1         eglBindAPI [46]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+                0.00    0.00        1/1           <UNKNOWN>
+[55]     0.0    0.00    0.00        1         eglCreateContext [55]
+                0.00    0.00        1/6           platform_client_release [243]
+                0.00    0.00        1/3           khrn_pointer_map_insert [522]
+                0.00    0.00        1/1           egl_context_create [21]
+                0.00    0.00        1/3           egl_config_get_api_support [15]
+                0.00    0.00        1/1           egl_context_check_attribs [20]
+                0.00    0.00        1/6           client_egl_get_process_state [465]
+                0.00    0.00        1/6           platform_client_lock [242]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+[66]     0.0    0.00    0.00        0         context_and_surface_are_compatible [66]
+                0.00    0.00        2/3           egl_config_get_api_support [15]
+                0.00    0.00        2/2           egl_config_bpps_match [17]
+-----------------------------------------------
+[67]     0.0    0.00    0.00        0         egl_current_set [67]
+                0.00    0.00        1/1           egl_context_set_callbacks [24]
+                0.00    0.00        1/1           egl_surface_get_render_buffer [87]
+-----------------------------------------------
+                0.00    0.00        1/1           <UNKNOWN>
+[69]     0.0    0.00    0.00        1         eglMakeCurrent [69]
+                0.00    0.00        1/6           platform_client_release [243]
+                0.00    0.00        1/44          client_send_make_current [474]
+                0.00    0.00        2/3           client_egl_get_surface [470]
+                0.00    0.00        1/1           client_egl_get_context [469]
+                0.00    0.00        1/6           client_egl_get_process_state [465]
+                0.00    0.00        1/6           platform_client_lock [242]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+                0.00    0.00        1/1           <UNKNOWN>
+[76]     0.0    0.00    0.00        1         eglSwapBuffers [76]
+                0.00    0.00        1/6           platform_client_release [243]
+                0.00    0.00        1/2           rpc_flush [200]
+                0.00    0.00        1/112         rpc_send_ctrl_end [206]
+                0.00    0.00        1/113         rpc_send_ctrl_write [205]
+                0.00    0.00        1/112         rpc_send_ctrl_begin [204]
+                0.00    0.00        1/1           khrn_platform_get_window_position [255]
+                0.00    0.00        1/1           platform_surface_update [248]
+                0.00    0.00        1/2           platform_get_dimensions [262]
+                0.00    0.00        1/3           client_egl_get_surface [470]
+                0.00    0.00        1/6           client_egl_get_process_state [465]
+                0.00    0.00        1/6           platform_client_lock [242]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+                0.00    0.00        1/1           eglCreateWindowSurface [40]
+[83]     0.0    0.00    0.00        1         egl_surface_check_attribs [83]
+-----------------------------------------------
+                0.00    0.00        1/1           eglCreateWindowSurface [40]
+[84]     0.0    0.00    0.00        1         egl_surface_create [84]
+                0.00    0.00        1/87          rpc_end [213]
+                0.00    0.00        1/40          rpc_recv [211]
+                0.00    0.00        1/112         rpc_send_ctrl_end [206]
+                0.00    0.00        1/113         rpc_send_ctrl_write [205]
+                0.00    0.00        1/112         rpc_send_ctrl_begin [204]
+                0.00    0.00        1/87          rpc_begin [212]
+                0.00    0.00        1/1           khronos_platform_semaphore_create [226]
+                0.00    0.00        1/45          rpc_get_client_id [217]
+                0.00    0.00        2/93          egl_config_get_attrib [4]
+                0.00    0.00        1/1           egl_config_get_multisample_format [9]
+                0.00    0.00        1/1           egl_config_get_mask_format [8]
+                0.00    0.00        1/1           egl_config_get_depth_format [7]
+                0.00    0.00        1/4           egl_config_get_color_format [6]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+                0.00    0.00        1/1           egl_current_set [67]
+[87]     0.0    0.00    0.00        1         egl_surface_get_render_buffer [87]
+-----------------------------------------------
+                0.00    0.00        1/1           eglInitialize [37]
+[157]    0.0    0.00    0.00        1         khrn_init_options [157]
+-----------------------------------------------
+                0.00    0.00        1/1           client_process_state_init [462]
+[162]    0.0    0.00    0.00        1         khrn_global_image_map_init [162]
+                0.00    0.00        1/11          khrn_platform_malloc [231]
+-----------------------------------------------
+                0.00    0.00        1/1           platform_tls_get [228]
+[193]    0.0    0.00    0.00        1         vc_vchi_khronos_init [193]
+-----------------------------------------------
+                0.00    0.00        1/1           client_process_attach [475]
+[194]    0.0    0.00    0.00        1         khclient_rpc_init [194]
+-----------------------------------------------
+[199]    0.0    0.00    0.00        0         merge_flush [199]
+                0.00    0.00       42/87          rpc_end [213]
+                0.00    0.00       42/44          client_send_make_current [474]
+                0.00    0.00       42/87          rpc_begin [212]
+-----------------------------------------------
+                0.00    0.00        1/2           eglSwapBuffers [76]
+                0.00    0.00        1/2           <UNKNOWN>
+[200]    0.0    0.00    0.00        2         rpc_flush [200]
+-----------------------------------------------
+                0.00    0.00        1/112         eglSwapBuffers [76]
+                0.00    0.00       65/112         <UNKNOWN>
+                0.00    0.00        1/112         egl_surface_create [84]
+                0.00    0.00        1/112         egl_context_create [21]
+                0.00    0.00       44/112         rpc_call8_makecurrent [216]
+[204]    0.0    0.00    0.00      112         rpc_send_ctrl_begin [204]
+-----------------------------------------------
+                0.00    0.00        1/113         eglSwapBuffers [76]
+                0.00    0.00       66/113         <UNKNOWN>
+                0.00    0.00        1/113         egl_surface_create [84]
+                0.00    0.00        1/113         egl_context_create [21]
+                0.00    0.00       44/113         rpc_call8_makecurrent [216]
+[205]    0.0    0.00    0.00      113         rpc_send_ctrl_write [205]
+-----------------------------------------------
+                0.00    0.00        1/112         eglSwapBuffers [76]
+                0.00    0.00       65/112         <UNKNOWN>
+                0.00    0.00        1/112         egl_surface_create [84]
+                0.00    0.00        1/112         egl_context_create [21]
+                0.00    0.00       44/112         rpc_call8_makecurrent [216]
+[206]    0.0    0.00    0.00      112         rpc_send_ctrl_end [206]
+-----------------------------------------------
+                0.00    0.00        8/8           <UNKNOWN>
+[209]    0.0    0.00    0.00        8         rpc_send_bulk [209]
+-----------------------------------------------
+                0.00    0.00       38/40          <UNKNOWN>
+                0.00    0.00        1/40          egl_surface_create [84]
+                0.00    0.00        1/40          egl_context_create [21]
+[211]    0.0    0.00    0.00       40         rpc_recv [211]
+-----------------------------------------------
+                0.00    0.00       42/87          <UNKNOWN>
+                0.00    0.00        1/87          rpc_call8_makecurrent [216]
+                0.00    0.00        1/87          egl_surface_create [84]
+                0.00    0.00       42/87          merge_flush [199]
+                0.00    0.00        1/87          egl_context_create [21]
+[212]    0.0    0.00    0.00       87         rpc_begin [212]
+-----------------------------------------------
+                0.00    0.00       42/87          <UNKNOWN>
+                0.00    0.00        1/87          rpc_call8_makecurrent [216]
+                0.00    0.00        1/87          egl_surface_create [84]
+                0.00    0.00        1/87          egl_context_create [21]
+                0.00    0.00       42/87          merge_flush [199]
+[213]    0.0    0.00    0.00       87         rpc_end [213]
+-----------------------------------------------
+                0.00    0.00       44/44          client_send_make_current [474]
+[216]    0.0    0.00    0.00       44         rpc_call8_makecurrent [216]
+                0.00    0.00        1/87          rpc_end [213]
+                0.00    0.00        1/87          rpc_begin [212]
+                0.00    0.00       44/112         rpc_send_ctrl_end [206]
+                0.00    0.00       44/113         rpc_send_ctrl_write [205]
+                0.00    0.00       44/112         rpc_send_ctrl_begin [204]
+-----------------------------------------------
+                0.00    0.00        1/45          egl_surface_create [84]
+                0.00    0.00       44/45          client_send_make_current [474]
+[217]    0.0    0.00    0.00       45         rpc_get_client_id [217]
+-----------------------------------------------
+                0.00    0.00        1/1           egl_surface_create [84]
+[226]    0.0    0.00    0.00        1         khronos_platform_semaphore_create [226]
+-----------------------------------------------
+                0.00    0.00        1/83          eglSwapBuffers [76]
+                0.00    0.00        1/83          eglMakeCurrent [69]
+                0.00    0.00        1/83          egl_surface_create [84]
+                0.00    0.00        1/83          eglCreateWindowSurface [40]
+                0.00    0.00        1/83          egl_context_create [21]
+                0.00    0.00        1/83          eglCreateContext [55]
+                0.00    0.00        1/83          eglBindAPI [46]
+                0.00    0.00        1/83          choose_config [33]
+                0.00    0.00        1/83          eglInitialize [37]
+                0.00    0.00       73/83          <UNKNOWN>
+                0.00    0.00        1/83          platform_tls_get_check [229]
+[228]    0.0    0.00    0.00       83         platform_tls_get [228]
+                0.00    0.00        1/1           client_thread_attach [476]
+                0.00    0.00        1/1           vc_vchi_khronos_init [193]
+                0.00    0.00        1/1           client_process_attach [475]
+-----------------------------------------------
+                0.00    0.00        1/1           eglGetDisplay [31]
+[229]    0.0    0.00    0.00        1         platform_tls_get_check [229]
+                0.00    0.00        1/83          platform_tls_get [228]
+-----------------------------------------------
+                0.00    0.00        1/11          <UNKNOWN>
+                0.00    0.00        2/11          egl_context_create [21]
+                0.00    0.00        1/11          khrn_global_image_map_init [162]
+                0.00    0.00        6/11          khrn_pointer_map_init [520]
+                0.00    0.00        1/11          client_thread_attach [476]
+[231]    0.0    0.00    0.00       11         khrn_platform_malloc [231]
+-----------------------------------------------
+                0.00    0.00        1/6           eglSwapBuffers [76]
+                0.00    0.00        1/6           eglMakeCurrent [69]
+                0.00    0.00        1/6           eglCreateWindowSurface [40]
+                0.00    0.00        1/6           eglCreateContext [55]
+                0.00    0.00        1/6           choose_config [33]
+                0.00    0.00        1/6           eglInitialize [37]
+[242]    0.0    0.00    0.00        6         platform_client_lock [242]
+-----------------------------------------------
+                0.00    0.00        1/6           eglSwapBuffers [76]
+                0.00    0.00        1/6           eglMakeCurrent [69]
+                0.00    0.00        1/6           eglCreateWindowSurface [40]
+                0.00    0.00        1/6           eglCreateContext [55]
+                0.00    0.00        1/6           choose_config [33]
+                0.00    0.00        1/6           eglInitialize [37]
+[243]    0.0    0.00    0.00        6         platform_client_release [243]
+-----------------------------------------------
+                0.00    0.00        1/1           eglSwapBuffers [76]
+[248]    0.0    0.00    0.00        1         platform_surface_update [248]
+-----------------------------------------------
+                0.00    0.00        1/1           eglGetDisplay [31]
+[254]    0.0    0.00    0.00        1         khrn_platform_set_display_id [254]
+-----------------------------------------------
+                0.00    0.00        1/1           eglSwapBuffers [76]
+[255]    0.0    0.00    0.00        1         khrn_platform_get_window_position [255]
+-----------------------------------------------
+                0.00    0.00        1/2           eglSwapBuffers [76]
+                0.00    0.00        1/2           eglCreateWindowSurface [40]
+[262]    0.0    0.00    0.00        2         platform_get_dimensions [262]
+-----------------------------------------------
+                0.00    0.00        1/1           eglCreateWindowSurface [40]
+[263]    0.0    0.00    0.00        1         platform_get_handle [263]
+-----------------------------------------------
+                0.00    0.00        1/1           eglInitialize [37]
+[462]    0.0    0.00    0.00        1         client_process_state_init [462]
+                0.00    0.00        1/1           egl_config_install_configs [0]
+                0.00    0.00        1/1           khrn_global_image_map_init [162]
+                0.00    0.00        4/6           khrn_pointer_map_init [520]
+-----------------------------------------------
+                0.00    0.00        1/6           eglSwapBuffers [76]
+                0.00    0.00        1/6           eglMakeCurrent [69]
+                0.00    0.00        1/6           eglCreateWindowSurface [40]
+                0.00    0.00        1/6           eglCreateContext [55]
+                0.00    0.00        1/6           choose_config [33]
+                0.00    0.00        1/6           eglInitialize [37]
+[465]    0.0    0.00    0.00        6         client_egl_get_process_state [465]
+-----------------------------------------------
+                0.00    0.00        1/1           client_thread_attach [476]
+[467]    0.0    0.00    0.00        1         client_thread_state_init [467]
+-----------------------------------------------
+                0.00    0.00        1/1           eglMakeCurrent [69]
+[469]    0.0    0.00    0.00        1         client_egl_get_context [469]
+                0.00    0.00        1/6           khrn_pointer_map_lookup [525]
+-----------------------------------------------
+                0.00    0.00        1/3           eglSwapBuffers [76]
+                0.00    0.00        2/3           eglMakeCurrent [69]
+[470]    0.0    0.00    0.00        3         client_egl_get_surface [470]
+                0.00    0.00        3/6           khrn_pointer_map_lookup [525]
+-----------------------------------------------
+                0.00    0.00        1/44          eglMakeCurrent [69]
+                0.00    0.00       42/44          merge_flush [199]
+                0.00    0.00        1/44          client_thread_attach [476]
+[474]    0.0    0.00    0.00       44         client_send_make_current [474]
+                0.00    0.00       44/44          rpc_call8_makecurrent [216]
+                0.00    0.00       44/45          rpc_get_client_id [217]
+-----------------------------------------------
+                0.00    0.00        1/1           platform_tls_get [228]
+[475]    0.0    0.00    0.00        1         client_process_attach [475]
+                0.00    0.00        1/1           khclient_rpc_init [194]
+-----------------------------------------------
+                0.00    0.00        1/1           platform_tls_get [228]
+[476]    0.0    0.00    0.00        1         client_thread_attach [476]
+                0.00    0.00        1/44          client_send_make_current [474]
+                0.00    0.00        1/1           client_thread_state_init [467]
+                0.00    0.00        1/11          khrn_platform_malloc [231]
+-----------------------------------------------
+                0.00    0.00        2/6           <UNKNOWN>
+                0.00    0.00        4/6           client_process_state_init [462]
+[520]    0.0    0.00    0.00        6         khrn_pointer_map_init [520]
+                0.00    0.00        6/11          khrn_platform_malloc [231]
+-----------------------------------------------
+                0.00    0.00        1/3           <UNKNOWN>
+                0.00    0.00        1/3           eglCreateWindowSurface [40]
+                0.00    0.00        1/3           eglCreateContext [55]
+[522]    0.0    0.00    0.00        3         khrn_pointer_map_insert [522]
+-----------------------------------------------
+                0.00    0.00        2/6           <UNKNOWN>
+                0.00    0.00        3/6           client_egl_get_surface [470]
+                0.00    0.00        1/6           client_egl_get_context [469]
+[525]    0.0    0.00    0.00        6         khrn_pointer_map_lookup [525]
+-----------------------------------------------
