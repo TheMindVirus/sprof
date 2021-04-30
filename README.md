@@ -11,17 +11,17 @@ This repository also contains call traces of libbcm_host.so, libbrcmEGL.so and l
 `raspberrypi/userland/makefiles/cmake/toolchains/` but this is not absolutely necessary for traces)
 
 ## Traces
-### These traces can be found here:
-https://github.com/TheMindVirus/sprof/blob/main/trisprof-rel/prof_data/app.log
-https://github.com/TheMindVirus/sprof/blob/main/trisprof-rel/prof_data/libbcm_host.so.p.log
-https://github.com/TheMindVirus/sprof/blob/main/trisprof-rel/prof_data/libbrcmEGL.so.p.log
+### Sample output of sprof can be found here:
+https://github.com/TheMindVirus/sprof/blob/main/trisprof-rel/prof_data/app.log \
+https://github.com/TheMindVirus/sprof/blob/main/trisprof-rel/prof_data/libbcm_host.so.p.log \
+https://github.com/TheMindVirus/sprof/blob/main/trisprof-rel/prof_data/libbrcmEGL.so.p.log \
 https://github.com/TheMindVirus/sprof/blob/main/trisprof-rel/prof_data/libbrcmGLESv2.so.p.log
 
 ## Links
-### Here are some useful links to some of the sources of the libraries being traced:
-https://github.com/raspberrypi/userland/blob/master/host_applications/linux/libs/bcm_host/bcm_host.c
-https://github.com/raspberrypi/userland/blob/master/interface/khronos/egl/egl_client.c
-https://github.com/raspberrypi/userland/blob/master/interface/khronos/glxx/glxx_client.c
+### These are some of the sources of the libraries being traced:
+https://github.com/raspberrypi/userland/blob/master/host_applications/linux/libs/bcm_host/bcm_host.c \
+https://github.com/raspberrypi/userland/blob/master/interface/khronos/egl/egl_client.c \
+https://github.com/raspberrypi/userland/blob/master/interface/khronos/glxx/glxx_client.c \
 https://github.com/raspberrypi/userland/blob/master/interface/khronos/common/khrn_client_rpc.h#L121
 
 ## Screenshot
