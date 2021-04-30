@@ -1,6 +1,8 @@
 TEST_LIBS+=libbcm_host.so
 TEST_LIBS+=libbrcmEGL.so
 TEST_LIBS+=libbrcmGLESv2.so
+TEST_LIBS+=libvcos.so
+TEST_LIBS+=libvchiq_arm.so
 
 all:
 	gcc ./main.c -o ./app -g -pg -I /opt/vc/include/ -L . -lbcm_host -lbrcmEGL -lbrcmGLESv2

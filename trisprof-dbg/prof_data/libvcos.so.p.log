@@ -1,0 +1,31 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total
+ time   seconds   seconds    calls  us/call  us/call  name
+  0.00      0.00     0.00       93     0.00           vcos_generic_reentrant_mutex_lock
+  0.00      0.00     0.00       93     0.00           vcos_generic_reentrant_mutex_unlock
+  0.00      0.00     0.00       25     0.00           vcos_generic_mem_alloc_aligned
+  0.00      0.00     0.00       24     0.00           vcos_generic_mem_alloc
+  0.00      0.00     0.00        6     0.00           vcos_global_lock
+  0.00      0.00     0.00        6     0.00           vcos_global_unlock
+  0.00      0.00     0.00        5     0.00           vcos_log_register
+  0.00      0.00     0.00        4     0.00           vcos_thread_attr_init
+  0.00      0.00     0.00        4     0.00           vcos_thread_create
+  0.00      0.00     0.00        2     0.00           vcos_generic_reentrant_mutex_create
+  0.00      0.00     0.00        2     0.00           vcos_init
+  0.00      0.00     0.00        2     0.00           vcos_log_get_default_category
+  0.00      0.00     0.00        1     0.00           _vcos_log_platform_init
+  0.00      0.00     0.00        1     0.00           _vcos_named_semaphore_init
+  0.00      0.00     0.00        1     0.00           vcos_deinit
+  0.00      0.00     0.00        1     0.00           vcos_generic_blockpool_alloc
+  0.00      0.00     0.00        1     0.00           vcos_generic_blockpool_calloc
+  0.00      0.00     0.00        1     0.00           vcos_generic_blockpool_extend
+  0.00      0.00     0.00        1     0.00           vcos_generic_blockpool_init
+  0.00      0.00     0.00        1     0.00           vcos_generic_named_semaphore_create
+  0.00      0.00     0.00        1     0.00           vcos_logging_init
+  0.00      0.00     0.00        1     0.00           vcos_msgq_init
+  0.00      0.00     0.00        1     0.00           vcos_once
+  0.00      0.00     0.00        1     0.00           vcos_platform_init
+  0.00      0.00     0.00        1     0.00           vcos_snprintf
+  0.00      0.00     0.00        1     0.00           vcos_thread_at_exit

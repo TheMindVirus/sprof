@@ -1,0 +1,26 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total
+ time   seconds   seconds    calls  us/call  us/call  name
+  0.00      0.00     0.00       48     0.00           vchiq_queue_message
+  0.00      0.00     0.00       46     0.00           vchiq_release_message
+  0.00      0.00     0.00       46     0.00           vchiu_queue_pop
+  0.00      0.00     0.00       46     0.00           vchiu_queue_push
+  0.00      0.00     0.00       45     0.00           vchiq_get_client_id
+  0.00      0.00     0.00       19     0.00           vchi_service_release
+  0.00      0.00     0.00       18     0.00           vchi_msg_dequeue
+  0.00      0.00     0.00       13     0.00           vchi_service_use
+  0.00      0.00     0.00        9     0.00           vchi_msg_queuev
+  0.00      0.00     0.00        7     0.00           vchi_service_open
+  0.00      0.00     0.00        3     0.00           vchiq_open_service
+  0.00      0.00     0.00        2     0.00           vchiq_connect
+  0.00      0.00     0.00        2     0.00           vchiq_initialise
+  0.00      0.00     0.00        2     0.00           vchiq_initialise_fd
+  0.00      0.00     0.00        2     0.00           vchiu_queue_init
+  0.00      0.00     0.00        1     0.00           single_get_func_table
+  0.00      0.00     0.00        1     0.00           vchi_connect
+  0.00      0.00     0.00        1     0.00           vchi_create_connection
+  0.00      0.00     0.00        1     0.00           vchi_initialise
+  0.00      0.00     0.00        1     0.00           vchi_mphi_message_driver_func_table
+  0.00      0.00     0.00        1     0.00           vchi_msg_queue
